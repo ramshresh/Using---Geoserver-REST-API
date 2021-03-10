@@ -1,0 +1,151 @@
+# Url
+127.0.0.1:8080/geoserver/rest/workspaces/ETLS/coveragestores/LC08_L1TP_140041_20140404_20170424_01_T1_Comp/coverages
+
+# Method
+POST
+
+# Body
+{
+  "coverage": {
+   
+    "abstract": "Digital elevation model for the Spearfish region.\r\n\r\nsfdem is a Tagged Image File Format with Geographic information",
+    "defaultInterpolationMethod": "nearest neighbor",
+    "description": "Generated from sfdem",
+    "dimensions": {
+      "coverageDimension": [
+        {
+          "description": "GridSampleDimension[-9.999999933815813E36,-9.999999933815813E36]",
+          "name": "Band1"
+        },
+        {
+          "description": "GridSampleDimension[-9.999999933815813E36,-9.999999933815813E36]",
+          "name": "Band2"
+        },
+        {
+          "description": "GridSampleDimension[-9.999999933815813E36,-9.999999933815813E36]",
+          "name": "Band3"
+        },
+        {
+          "description": "GridSampleDimension[-9.999999933815813E36,-9.999999933815813E36]",
+          "name": "Band4"
+        },
+        {
+          "description": "GridSampleDimension[-9.999999933815813E36,-9.999999933815813E36]",
+          "name": "Band5"
+        }
+      ]
+    },
+    "enabled": true,
+    "grid": {
+      "@dimension": "2",
+      "crs": "EPSG:32645",
+      "range": {
+        "high": "634 477",
+        "low": "0 0"
+      },
+      "transform": {
+        "scaleX": 30,
+        "scaleY": -30,
+        "shearX": 0,
+        "shearY": 0,
+        "translateX": 589995,
+        "translateY": 4927995
+      }
+    },
+    "interpolationMethods": {
+      "string": [
+        "nearest neighbor",
+        "bilinear",
+        "bicubic"
+      ]
+    },
+    "keywords": {
+      "string": [
+        "WCS",
+        "sfdem",
+        "sfdem",
+        "type\\@language=fr\\;\\@vocabulary=test\\;"
+      ]
+    },
+   
+    "metadata": {
+      "entry": [
+        {
+          "@key": "elevation",
+          "dimensionInfo": {
+            "enabled": false
+          }
+        },
+        {
+          "$": "10",
+          "@key": "cacheAgeMax"
+        },
+        {
+          "@key": "time",
+          "dimensionInfo": {
+            "defaultValue": "",
+            "enabled": false
+          }
+        },
+        {
+          "$": "true",
+          "@key": "cachingEnabled"
+        },
+        {
+          "$": "sfdem_sfdem",
+          "@key": "dirName"
+        }
+      ]
+    },
+    "name": "Epoch_01-FCC-LC08_L1TP_140041_20140404_20170424_01_T1_Comp",
+    "namespace": {
+      "href": "http://localhost:8075/geoserver/restng/namespaces/ETLS.json",
+      "name": "ETLS"
+    },
+    "nativeBoundingBox": {
+      "crs": {
+        "$": "EPSG:32645",
+        "@class": "projected"
+      },
+      "maxx": 595215,
+      "maxy": 3150615,
+      "minx": 365685,
+      "miny": 2916885
+    },
+    "nativeCRS": {
+      "$": "PROJCS[\"WGS 84 \/ UTM zone 45N\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"World Geodetic System 1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0, AUTHORITY[\"EPSG\",\"8901\"]], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Geodetic longitude\", EAST], \n    AXIS[\"Geodetic latitude\", NORTH], \n    AUTHORITY[\"EPSG\",\"4326\"]], \n  PROJECTION[\"Transverse_Mercator\", AUTHORITY[\"EPSG\",\"9807\"]], \n  PARAMETER[\"central_meridian\", 87.0], \n  PARAMETER[\"latitude_of_origin\", 0.0], \n  PARAMETER[\"scale_factor\", 0.9996], \n  PARAMETER[\"false_easting\", 500000.0], \n  PARAMETER[\"false_northing\", 0.0], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH], \n  AUTHORITY[\"EPSG\",\"32645\"]]",
+      "@class": "projected"
+    },
+    "nativeFormat": "GeoTIFF",
+    "nativeName": "LC08_L1TP_140041_20140404_20170424_01_T1_Comp",
+    "requestSRS": {
+      "string": [
+        "EPSG:32645"
+      ]
+    },
+    "responseSRS": {
+      "string": [
+        "EPSG:32645"
+      ]
+    },
+    "srs": "EPSG:32645",
+    "store": {
+      "@class": "coverageStore",
+      "href": "http://localhost:8075/geoserver/restng/workspaces/ETLS/coveragestores/LC08_L1TP_140041_20140404_20170424_01_T1_Comp.json",
+      "name": "ETLS:LC08_L1TP_140041_20140404_20170424_01_T1_Comp"
+    },
+    "supportedFormats": {
+      "string": [
+        "ARCGRID",
+        "IMAGEMOSAIC",
+        "GTOPO30",
+        "GEOTIFF",
+        "GIF",
+        "PNG",
+        "JPEG",
+        "TIFF"
+      ]
+    },
+    "title": "Epoch 01 - False Colour Composite - LC08_L1TP_140041_20140404_20170424_01_T1_Comp"
+  }
+}
