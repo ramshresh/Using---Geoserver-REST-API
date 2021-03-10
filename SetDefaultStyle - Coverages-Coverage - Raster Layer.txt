@@ -1,0 +1,11 @@
+# Url 
+127.0.0.1:8080/geoserver/rest/layers/ETLS:Epoch_01-FCC-LC08_L1TP_140041_20140404_20170424_01_T1_Comp
+
+# Method
+PUT
+
+# Body
+{"layer":{
+    "enabled": true, 
+    "defaultStyle": {"name": "FCC_LANDSAT_LANDSLIDES", "workspace": "ETLS"}
+}}
